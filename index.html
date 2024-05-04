@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div class="quiz-container" style="text-align: left;"> 
+        <h1></h1>
+        <p id="question1" >1. PIM ย่อมาจากอะไร ?</p>
+        <button class="button" onclick="checkAnswer('a',1)">A) พีไอเอ็ม</button>
+        <button class="button" onclick="checkAnswer('b',1)">B) ปิ๋ม</button>
+        <button class="button" onclick="checkAnswer('c',1)">C) พิม</button>
+        <button class="button" onclick="checkAnswer('d',1)">D) ภีม</button>
+        <p id="result1"></p><label id="a1" style="color: white;"></label>
+
+        <p id="question2">2. บริษัท CPRAM มีกี่สาขา ?</p>
+        <button class="button" onclick="checkAnswer('a',2)">A) 3 สาขา</button>
+        <button class="button" onclick="checkAnswer('b',2)">B) 5 สาขา</button>
+        <button class="button" onclick="checkAnswer('c',2)">C) 7 สาขา</button>
+        <button class="button" onclick="checkAnswer('d',2)">C) 9 สาขา</button>
+        <p id="result2"></p><label id="a2" style="color: white;"></label>
+
+        <p id="Showresult"></p>
+    </div>
+    
+</body>
+<script src="quiz.js" charset="utf-8"></script>
+</html>
